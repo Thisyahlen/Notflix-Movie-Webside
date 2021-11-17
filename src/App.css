@@ -1,0 +1,91 @@
+/* Basic Styling */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffff;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+}
+
+/* Consistent Classes */
+
+.main-container {
+  margin: 0 auto;
+  max-width: 95vw;
+  overflow-x: hidden;
+}
+
+.header {
+  font-size: 2.5em;
+}
+
+.basic-btn {
+  font-size: 1.2vw;
+  margin-top: 0.65em;
+  margin-right: 1em;
+  padding: 0.5em 1.2em;
+  border: 2px solid #fff;
+  background-color: #000;
+}
+
+.big-btn {
+  font-size: 1em;
+  padding: 0.75em 1.3em;
+  border: 2px solid #fff;
+}
+
+#active-btn {
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+}
+
+.feature-poster {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    overflow-x: hidden;
+  }
+
+  .header {
+    font-size: 2em;
+  }
+
+  .basic-btn {
+    font-size: 0.75em;
+  }
+}

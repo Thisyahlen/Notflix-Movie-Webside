@@ -1,0 +1,19 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.category-buttons {
+  display: flex;
+  padding-bottom: 1.6em;
+}
+
+.category-panels {
+  display: flex;
+  overflow-x: scroll;
+  height: 20em;
+}
+.category-panels::-webkit-scrollbar {
+  display: none;
+}

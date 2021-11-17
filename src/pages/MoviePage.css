@@ -1,0 +1,87 @@
+.mp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  padding: 1em 4em;
+}
+
+.mp-poster {
+  width: 12em;
+  height: auto;
+  border: 2px solid #fff;
+}
+
+.mp-movie-detail,
+.mp-movie-genre {
+  font-size: 1.8vw;
+}
+
+.mp-movie-detail {
+  margin-right: 1em;
+}
+
+.mp-wrapper-genre {
+  margin: 0.5em 0;
+}
+
+#mp-genre {
+  margin-right: 1em;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.mp-wrapper-detail {
+  margin: 0.5em 0em;
+}
+
+.mp-wrapper-overview {
+  width: 95%;
+  margin: 1.5em 0;
+}
+
+.mp-overview {
+  font-size: 1.5vw;
+  letter-spacing: 1.5px;
+  line-height: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .mp-container {
+    height: auto;
+    padding: 0em;
+    flex-direction: column;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .mp-wrapper-poster {
+    margin: 150px 0px 55px 0px;
+  }
+
+  .mp-wrapper-info {
+    padding: 0.2em;
+  }
+
+  .mp-header {
+    font-size: 2em;
+  }
+
+  .mp-movie-detail,
+  .mp-movie-genre {
+    font-size: 1em;
+  }
+
+  .mp-wrapper-overview {
+    width: 100%;
+    margin: 1.5em 0;
+  }
+
+  .mp-overview {
+    font-size: 1em;
+  }
+
+  .mp-btn {
+    width: 100%;
+  }
+}

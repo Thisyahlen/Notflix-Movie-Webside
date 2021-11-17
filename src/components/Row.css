@@ -1,0 +1,9 @@
+.row-panels {
+  display: flex;
+  overflow-x: scroll;
+  height: 20em;
+  width: 100%;
+}
+.row-panels::-webkit-scrollbar {
+  display: none;
+}

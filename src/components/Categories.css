@@ -1,0 +1,41 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.category-buttons {
+  display: flex;
+  padding-bottom: 1em;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.category-buttons > button:active {
+  background-color: grey;
+}
+
+.category-panels {
+  display: flex;
+  overflow-x: scroll;
+  height: 20em;
+  width: 100%;
+}
+.category-panels::-webkit-scrollbar {
+  display: none;
+}
+
+/* mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .category-panels {
+    flex-wrap: wrap;
+  }
+}
+
+/* Desktops, Large Screens ----------- */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Large Screens, TV ----------- */
+@media only screen and (min-width: 1201px) {
+}
